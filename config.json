@@ -1,0 +1,27 @@
+{
+  "model_file": "models/bouazizi_binary_best.pt",
+  "model_sha256": "b243bafca193f71c650c528be9eb57c952fd7170c628f245aaab2d78fa842729",
+  "model_version": "bouazizi-binary-cnn-1.0.0",
+  "decision_threshold": 0.8452931642532349,
+  "normalization": {
+    "mean_c": 22.657346,
+    "std_c": 1.571359,
+    "note": "Six-decimal values from original training report; if available, supply the original models/preprocessing.json with full precision."
+  },
+  "input": {
+    "height": 24,
+    "width": 32,
+    "units": "Celsius",
+    "min_c": -40.0,
+    "max_c": 300.0
+  },
+  "localizer": {
+    "min_contrast_c": 2.0,
+    "min_above_background_c": 1.25,
+    "fraction_of_peak_contrast": 0.45,
+    "min_area_pixels": 4,
+    "max_area_pixels": 170,
+    "max_aspect_ratio": 5.0,
+    "max_bbox_width_fraction": 0.8
+  }
+}

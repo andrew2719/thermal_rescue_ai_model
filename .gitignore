@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.pytest_cache/
+.DS_Store
+output/
+*.egg-info/
+# Intentionally NOT ignoring models/*.pt: team can commit the trained CNN weights.
+# Never commit full training datasets or archives.
+*.tar.gz
+*.npz

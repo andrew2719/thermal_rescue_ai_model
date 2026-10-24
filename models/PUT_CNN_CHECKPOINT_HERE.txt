@@ -1,0 +1,11 @@
+Copy the ORIGINAL Bouazizi binary CNN checkpoint into this directory:
+
+    models/bouazizi_binary_best.pt
+
+It must match the SHA-256 saved in config.json:
+    b243bafca193f71c650c528be9eb57c952fd7170c628f245aaab2d78fa842729
+
+DO NOT copy YOLO best.pt. It is a different model and cannot be used here.
+
+Optionally copy the original models/preprocessing.json to retain its full-precision train-only mean/std.
+This clean repository also contains six-decimal training stats in config.json.
